@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity implements ReqContract.ILogi
     }
 
     private void toFind() {
+        page = 1;
         String ed_goodsname = mEdGoods.getText().toString();
         //获取数据
         params.put("keywords",ed_goodsname);

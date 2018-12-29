@@ -27,6 +27,9 @@ public class OkHttpUtil {
     private OkHttpUtil() {
         handler = new Handler();
 
+        //设置拦截器
+
+
         okHttpClient = new OkHttpClient.Builder()
                 .writeTimeout(5,TimeUnit.SECONDS)
                 .readTimeout(5,TimeUnit.SECONDS)

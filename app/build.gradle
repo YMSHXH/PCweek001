@@ -29,6 +29,8 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.github.bumptech.glide:glide:4.8.0'
     implementation 'com.jcodecraeer:xrecyclerview:1.5.9'
+    //拦截器
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.1'
 }
 
 configurations.all {     resolutionStrategy.eachDependency { DependencyResolveDetails details ->

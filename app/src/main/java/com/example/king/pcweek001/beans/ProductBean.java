@@ -64,24 +64,24 @@ public class ProductBean {
          * title : 一加手机5 (A5000) 6GB+64GB 月岩灰 全网通 双卡双待 移动联通电信4G手机
          */
 
-        private int bargainPrice;
+        private String bargainPrice;
         private String createtime;
         private String detailUrl;
         private String images;
-        private int itemtype;
-        private int pid;
-        private int price;
-        private int pscid;
-        private int salenum;
-        private int sellerid;
+        private String itemtype;
+        private String pid;
+        private String price;
+        private String pscid;
+        private String salenum;
+        private String sellerid;
         private String subhead;
         private String title;
 
-        public int getBargainPrice() {
+        public String getBargainPrice() {
             return bargainPrice;
         }
 
-        public void setBargainPrice(int bargainPrice) {
+        public void setBargainPrice(String bargainPrice) {
             this.bargainPrice = bargainPrice;
         }
 
@@ -109,51 +109,51 @@ public class ProductBean {
             this.images = images;
         }
 
-        public int getItemtype() {
+        public String getItemtype() {
             return itemtype;
         }
 
-        public void setItemtype(int itemtype) {
+        public void setItemtype(String itemtype) {
             this.itemtype = itemtype;
         }
 
-        public int getPid() {
+        public String getPid() {
             return pid;
         }
 
-        public void setPid(int pid) {
+        public void setPid(String pid) {
             this.pid = pid;
         }
 
-        public int getPrice() {
+        public String getPrice() {
             return price;
         }
 
-        public void setPrice(int price) {
+        public void setPrice(String price) {
             this.price = price;
         }
 
-        public int getPscid() {
+        public String getPscid() {
             return pscid;
         }
 
-        public void setPscid(int pscid) {
+        public void setPscid(String pscid) {
             this.pscid = pscid;
         }
 
-        public int getSalenum() {
+        public String getSalenum() {
             return salenum;
         }
 
-        public void setSalenum(int salenum) {
+        public void setSalenum(String salenum) {
             this.salenum = salenum;
         }
 
-        public int getSellerid() {
+        public String getSellerid() {
             return sellerid;
         }
 
-        public void setSellerid(int sellerid) {
+        public void setSellerid(String sellerid) {
             this.sellerid = sellerid;
         }
 
