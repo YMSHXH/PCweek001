@@ -90,6 +90,7 @@ public class LoginActivity extends AppCompatActivity implements ReqContract.ILog
 
         //调用
         loginPresenter.goLogin(params,LoginApi.LOGIN);
+
     }
 
     @Override
