@@ -1,13 +1,17 @@
 package com.example.king.pcweek001.beans;
 
-import java.util.List;
-
 public class LoginBean {
+
+
+    /**
+     * msg : 登录成功
+     * code : 0
+     * data : {"age":null,"appkey":"083312aefd764657","appsecret":"8918EBF0284782F6C882F14D049DFA1C","createtime":"2018-12-30T09:32:38","email":null,"fans":null,"follow":null,"gender":null,"icon":null,"latitude":null,"longitude":null,"mobile":"13563015479","money":null,"nickname":null,"password":"CC9A08B0EB9F02AFDA07D24BF9DFB0F3","praiseNum":null,"token":"F5BE21FCD732DDB70B9E37CB1249CE32","uid":24364,"userId":null,"username":"13563015479"}
+     */
 
     private String msg;
     private String code;
-    private String page;
-    private List<DataBean> data;
+    private DataBean data;
 
     public String getMsg() {
         return msg;
@@ -25,43 +29,81 @@ public class LoginBean {
         this.code = code;
     }
 
-    public String getPage() {
-        return page;
-    }
-
-    public void setPage(String page) {
-        this.page = page;
-    }
-
-    public List<DataBean> getData() {
+    public DataBean getData() {
         return data;
     }
 
-    public void setData(List<DataBean> data) {
+    public void setData(DataBean data) {
         this.data = data;
     }
 
     public static class DataBean {
+        /**
+         * age : null
+         * appkey : 083312aefd764657
+         * appsecret : 8918EBF0284782F6C882F14D049DFA1C
+         * createtime : 2018-12-30T09:32:38
+         * email : null
+         * fans : null
+         * follow : null
+         * gender : null
+         * icon : null
+         * latitude : null
+         * longitude : null
+         * mobile : 13563015479
+         * money : null
+         * nickname : null
+         * password : CC9A08B0EB9F02AFDA07D24BF9DFB0F3
+         * praiseNum : null
+         * token : F5BE21FCD732DDB70B9E37CB1249CE32
+         * uid : 24364
+         * userId : null
+         * username : 13563015479
+         */
 
-        private double bargainPrice;
+        private String age;
+        private String appkey;
+        private String appsecret;
         private String createtime;
-        private String detailUrl;
-        private String images;
-        private int itemtype;
-        private int pid;
-        private double price;
-        private int pscid;
-        private int salenum;
-        private int sellerid;
-        private String subhead;
-        private String title;
+        private String email;
+        private String fans;
+        private String follow;
+        private String gender;
+        private String icon;
+        private String latitude;
+        private String longitude;
+        private String mobile;
+        private String money;
+        private String nickname;
+        private String password;
+        private String praiseNum;
+        private String token;
+        private String uid;
+        private String userId;
+        private String username;
 
-        public double getBargainPrice() {
-            return bargainPrice;
+        public String getAge() {
+            return age;
         }
 
-        public void setBargainPrice(double bargainPrice) {
-            this.bargainPrice = bargainPrice;
+        public void setAge(String age) {
+            this.age = age;
+        }
+
+        public String getAppkey() {
+            return appkey;
+        }
+
+        public void setAppkey(String appkey) {
+            this.appkey = appkey;
+        }
+
+        public String getAppsecret() {
+            return appsecret;
+        }
+
+        public void setAppsecret(String appsecret) {
+            this.appsecret = appsecret;
         }
 
         public String getCreatetime() {
@@ -72,84 +114,132 @@ public class LoginBean {
             this.createtime = createtime;
         }
 
-        public String getDetailUrl() {
-            return detailUrl;
+        public String getEmail() {
+            return email;
         }
 
-        public void setDetailUrl(String detailUrl) {
-            this.detailUrl = detailUrl;
+        public void setEmail(String email) {
+            this.email = email;
         }
 
-        public String getImages() {
-            return images;
+        public String getFans() {
+            return fans;
         }
 
-        public void setImages(String images) {
-            this.images = images;
+        public void setFans(String fans) {
+            this.fans = fans;
         }
 
-        public int getItemtype() {
-            return itemtype;
+        public String getFollow() {
+            return follow;
         }
 
-        public void setItemtype(int itemtype) {
-            this.itemtype = itemtype;
+        public void setFollow(String follow) {
+            this.follow = follow;
         }
 
-        public int getPid() {
-            return pid;
+        public String getGender() {
+            return gender;
         }
 
-        public void setPid(int pid) {
-            this.pid = pid;
+        public void setGender(String gender) {
+            this.gender = gender;
         }
 
-        public double getPrice() {
-            return price;
+        public String getIcon() {
+            return icon;
         }
 
-        public void setPrice(double price) {
-            this.price = price;
+        public void setIcon(String icon) {
+            this.icon = icon;
         }
 
-        public int getPscid() {
-            return pscid;
+        public String getLatitude() {
+            return latitude;
         }
 
-        public void setPscid(int pscid) {
-            this.pscid = pscid;
+        public void setLatitude(String latitude) {
+            this.latitude = latitude;
         }
 
-        public int getSalenum() {
-            return salenum;
+        public String getLongitude() {
+            return longitude;
         }
 
-        public void setSalenum(int salenum) {
-            this.salenum = salenum;
+        public void setLongitude(String longitude) {
+            this.longitude = longitude;
         }
 
-        public int getSellerid() {
-            return sellerid;
+        public String getMobile() {
+            return mobile;
         }
 
-        public void setSellerid(int sellerid) {
-            this.sellerid = sellerid;
+        public void setMobile(String mobile) {
+            this.mobile = mobile;
         }
 
-        public String getSubhead() {
-            return subhead;
+        public String getMoney() {
+            return money;
         }
 
-        public void setSubhead(String subhead) {
-            this.subhead = subhead;
+        public void setMoney(String money) {
+            this.money = money;
         }
 
-        public String getTitle() {
-            return title;
+        public String getNickname() {
+            return nickname;
         }
 
-        public void setTitle(String title) {
-            this.title = title;
+        public void setNickname(String nickname) {
+            this.nickname = nickname;
+        }
+
+        public String getPassword() {
+            return password;
+        }
+
+        public void setPassword(String password) {
+            this.password = password;
+        }
+
+        public String getPraiseNum() {
+            return praiseNum;
+        }
+
+        public void setPraiseNum(String praiseNum) {
+            this.praiseNum = praiseNum;
+        }
+
+        public String getToken() {
+            return token;
+        }
+
+        public void setToken(String token) {
+            this.token = token;
+        }
+
+        public String getUid() {
+            return uid;
+        }
+
+        public void setUid(String uid) {
+            this.uid = uid;
+        }
+
+        public String getUserId() {
+            return userId;
+        }
+
+        public void setUserId(String userId) {
+            this.userId = userId;
+        }
+
+        public String getUsername() {
+            return username;
+        }
+
+        public void setUsername(String username) {
+            this.username = username;
         }
     }
 }
